@@ -7,24 +7,24 @@
   table-layout: fixed;
   text-align: center;
 }
-.q3_table th{
+.q3_table .blue{
   color: #fff;
   background-color: #2244aa;
   line-height: 26px;
   font-size: 18px;
 }
-tr:nth-child(2n+1){
+.yokoretu:nth-child(2n+1){
   background-color: #ecf1f2;
 }
-tr,th,td{
+.yokoretu,.blue,.hinnsyu{
   border: solid #dedede 1px;
   padding: 10px;
 }
-.td{
+.hinnsyu{
   font-size: 16px;
   line-height: 22px;
 }
-tr:last-child{
+.yokoretu:last-child{
   border-top: dashed  #000000 2px;
 }
 /* 回答はここに書いてね */

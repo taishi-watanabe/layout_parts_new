@@ -2,23 +2,21 @@
 
 /* 回答はここに書いてね */
 /* q7-1 */
-.q7 .q7__box{
+.q7__box{
   width: 225px;
 }
-
-
 .clearfix::after{
   content: "";
   display: block;
   clear: both;
 }
-.q7--float .q7__box {
+.q7--float .q7__box__float {
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
 }
-.q7--float .q7__box:first-child {
+.q7--float .q7__box__float:first-child {
   margin-left: 0;
 }
 
@@ -27,12 +25,12 @@
 .q7--table  .q7__inner{
   display: table;
 }
-.q7--table  .q7__box{
+.q7--table  .q7__box__table{
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
-.q7--table  .q7__box:first-child{
+.q7--table  .q7__box__table:first-child{
   padding-left: 0;
 }
 .q7--table  .q7__box__text{
@@ -44,14 +42,14 @@
 .q7--inlineblock  .q7__inner{
   font-size: 0;
 }
-.q7--inlineblock  .q7__box{
+.q7--inlineblock  .q7__box__inlineblock{
   display: inline-block;
   margin-left: 50px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
-.q7--inlineblock  .q7__box:first-child{
+.q7--inlineblock  .q7__box__inlineblock:first-child{
   margin-left: 0;
 }
 
@@ -62,8 +60,7 @@
   justify-content: space-around;
   align-items: flex-end;
 }
-.q7--flex .q7__box{
-  vertical-align: middle;
+.q7--flex .q7__box__flex{
   box-sizing: border-box;
 }
 
@@ -89,5 +86,4 @@
 .q7--margin .q7__box__text {
   font-size: 16px;
 }
-
 /* 回答はここに書いてね */
