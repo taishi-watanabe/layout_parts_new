@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q3_table{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+.q3_table th{
+  color: #fff;
+  background-color: #2244aa;
+  line-height: 26px;
+  font-size: 18px;
+}
+tr:nth-child(2n+1){
+  background-color: #ecf1f2;
+}
+tr,th,td{
+  border: solid #dedede 1px;
+  padding: 10px;
+}
+.td{
+  font-size: 16px;
+  line-height: 22px;
+}
+tr:last-child{
+  border-top: dashed  #000000 2px;
+}
 /* 回答はここに書いてね */

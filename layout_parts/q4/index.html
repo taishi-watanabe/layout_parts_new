@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
   </head>
   <body>
     <div class="wrapper">
@@ -34,15 +35,17 @@
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <!-- 新たにタグは追加しなくてもできます。 -->
         <div class="q4">
-          <div>
-            <div>固定</div>
-            <div>可変</div>
-            <div>固定</div>
-          </div>
-          <div>
-            <div>可変</div>
-            <div>可変</div>
-            <div>固定</div>
+          <div  class="table">
+            <div  class="container">
+              <div  class="cell_first cell">固定</div>
+              <div  class="cell_second cell">可変</div>
+              <div  class="cell_third cell">固定</div>
+            </div>
+            <div  class="container">
+              <div  class="cell_fourth cell">可変</div>
+              <div  class="cell_fifth cell">可変</div>
+              <div  class="cell_sixth cell">固定</div>
+            </div>
           </div>
         </div>
         <!-- 回答はクラスq4の要素の中に書いてね -->
