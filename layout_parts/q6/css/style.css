@@ -10,7 +10,7 @@
 .blue_left{
   text-align: center;
 }
-.blue_left  .box_text{
+.blue_left .box_text{
   display: inline-block;
 }
 .box_text_margin{
@@ -19,7 +19,7 @@
 }
 
 /* Q6-2-1 */
-.q6--around{
+.q6__around{
   display: table;
 }
 .inner{
@@ -49,7 +49,7 @@
 
 
 /* q6--2-2 */
-.is-stable{
+.q6__box__is-stable{
   position: relative;
 }
 .q6__box__inner__position{
@@ -59,7 +59,7 @@
   right: 0;
   bottom: 0;
   margin:  auto;
-  padding: 10px;
+  /* padding: 10px; */
   background-color: #e6f2ff;
   text-align: center;
   width: 100px;
@@ -67,13 +67,13 @@
 }
 
 
-.is-flexible{
+.q6__box__is-flexible{
   position: relative;
 }
 .q6__box__inner__flexible{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-25px) translateX(-50px);
+  transform: translate(-50%, -50%);
 }
 /* 回答はここに書いてね */

@@ -7,7 +7,7 @@
   table-layout: fixed;
   text-align: center;
 }
-.q3_table .blue{
+.q3_table th{
   color: #fff;
   background-color: #2244aa;
   line-height: 26px;
@@ -16,7 +16,7 @@
 .yokoretu:nth-child(2n+1){
   background-color: #ecf1f2;
 }
-.yokoretu,.blue,.hinnsyu{
+.yokoretu, .blue, .hinnsyu{
   border: solid #dedede 1px;
   padding: 10px;
 }
@@ -24,7 +24,7 @@
   font-size: 16px;
   line-height: 22px;
 }
-.yokoretu:last-child{
+.tbody tr:last-child{
   border-top: dashed  #000000 2px;
 }
 /* 回答はここに書いてね */
